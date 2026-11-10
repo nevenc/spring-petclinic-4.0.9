@@ -1,0 +1,76 @@
+{
+  "pom.xml" : {
+    "compile" : [ {
+      "coordinate" : "com.fasterxml.jackson.core:jackson-core",
+      "oldVersion" : "2.21.7",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.core:jackson-databind",
+      "oldVersion" : "2.21.7",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "oldVersion" : "2.21.7",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "oldVersion" : "2.21.7",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "oldVersion" : "2.21.7",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.aspectj:aspectjweaver",
+      "oldVersion" : "1.9.25.1",
+      "newVersion" : "1.9.27",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.attoparser:attoparser",
+      "oldVersion" : "2.0.7.RELEASE",
+      "newVersion" : "2.0.10.RELEASE",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.hibernate.validator:hibernate-validator",
+      "oldVersion" : "9.0.2.Final",
+      "newVersion" : "9.0.3.Final",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.thymeleaf:thymeleaf",
+      "oldVersion" : "3.1.5.RELEASE",
+      "newVersion" : "3.1.6.RELEASE",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.thymeleaf:thymeleaf-spring6",
+      "oldVersion" : "3.1.5.RELEASE",
+      "newVersion" : "3.1.6.RELEASE",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.unbescape:unbescape",
+      "oldVersion" : "1.1.6.RELEASE",
+      "newVersion" : "1.1.8.RELEASE",
+      "scope" : "compile"
+    } ],
+    "test" : [ {
+      "coordinate" : "net.minidev:accessors-smart",
+      "oldVersion" : "2.6.0",
+      "newVersion" : "2.6.1",
+      "scope" : "test"
+    }, {
+      "coordinate" : "net.minidev:json-smart",
+      "oldVersion" : "2.6.0",
+      "newVersion" : "2.6.1",
+      "scope" : "test"
+    }, {
+      "coordinate" : "org.ow2.asm:asm",
+      "oldVersion" : "9.7.1",
+      "newVersion" : "9.11.1",
+      "scope" : "test"
+    } ]
+  }
+}

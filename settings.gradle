@@ -1,0 +1,16 @@
+pluginManagement {
+  repositories {
+    mavenCentral()
+    gradlePluginPortal()
+  }
+  resolutionStrategy {
+    eachPlugin {
+      // spring-javaformat 0.0.31 is published to Maven Central without a plugin marker
+      if (requested.id.id == 'io.spring.javaformat') {
+        useModule("io.spring.javaformat:spring-javaformat-gradle-plugin:${requested.version}")
+      }
+    }
+  }
+}
+
+rootProject.name = 'spring-petclinic'
